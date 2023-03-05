@@ -1,0 +1,592 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(assets/bg-main-mobile.png);
+    background-repeat: no-repeat;
+    background-position: left -250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+    
+
+
+
+.equalizer {
+    height: 32px;
+    width: 146.0926971435547px;
+    margin-left: 24.5px;
+    margin-top: 40px;
+    margin-bottom: 64px;
+
+}
+    
+
+header {
+    margin-bottom: 68px;
+    
+}
+
+.main-header {
+
+left: 24px;
+top: 136px;
+border-radius: nullpx;
+font-family: IBM Plex Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: -0.4545454680919647px;
+text-align: left;
+margin-left: 24.5px;
+
+}
+
+
+ 
+ .main-paragraph {
+   
+     margin: 20px 24px auto;
+     font-family: IBM Plex Sans;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 26px;
+     letter-spacing: 0px;
+     text-align: left;
+     
+
+ }
+ 
+
+
+
+/* main */
+
+main {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "overlap";
+
+
+}
+
+
+.mobile-img  {
+    width:56%;
+    grid-area: overlap;
+    z-index: 1;
+    margin-left: 77px;
+    margin-top: -100px;
+
+    
+
+
+    
+   
+}
+
+.colored-box {
+    background-color:#191826;
+    width: 100%;
+    grid-area: overlap;
+    border-radius: 12px;
+
+    
+
+}
+.colored-box img {
+    width: 74%;
+    
+    margin-left: 48px;
+    margin-right: 48px;
+
+
+}
+
+.orange-box {
+    width: 100%;
+    height: 546px;
+    background-color: #FA7453;
+    /* s */
+    border-radius: 12px;
+    grid-area: overlap;
+    margin-top: 380px;
+    
+}
+
+.orange-box-header {
+   
+  
+    font-family: IBM Plex Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 48px 37px 12px 36px;
+    color: #FCFAF9;
+
+}
+.orange-box-paragraph {
+    
+    left: 36px;
+    top: 1102px;
+    border-radius: nullpx;
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FCFAF9;
+    margin: 0 37px 36px;
+
+}
+.orange-box-price {
+  display: flex;
+  align-items: center;
+  margin: 0 168px 32px 42px;
+}
+.orange-box-price h3 {
+   
+    font-family: IBM Plex Sans;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0px;
+    color: #FCFAF9;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+.orange-box-price h4 {
+  
+    left: 95px;
+    top: 9px;
+    border-radius: nullpx;
+    font-family: IBM Plex Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.20000000298023224px;
+    color: #FCFAF9;
+    margin-left: 16px;
+    margin-top: -35px;
+    margin-top: 5px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.ios-button {
+    height: 61px;
+    width: 296px;
+    border-radius: 12px;
+    background-color: #191826;
+    border: none;
+
+
+}
+
+.apple-logo {
+    margin-bottom: -2px;
+}
+
+.ios-button a {
+    height: 32px;
+    width: 117px;
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #FCFAF9;
+    text-decoration: none;
+    
+
+    
+}
+
+.android-button {
+    height: 61px;
+    width: 296px;
+    left: 42px;
+    top: 1439px;
+    border-radius: 12px;
+    border: none;
+    margin-top: 1rem;
+
+}
+.android-button a {
+    height: 32px;
+    width: 155px;
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18000000715255737px;
+    text-align: center;
+    color: #191826;
+    text-decoration: none;
+}
+
+.android-logo {
+    margin-bottom: -2px;
+}
+
+.footer-img {
+    height: 32px;
+    width: 146.0926971435547px;
+    left: 1.15185546875px;
+    top: -0.008056640625px;
+    border-radius: 0px;
+    margin-left: 25px;
+    margin-top: 64px;
+}
+
+.footer-paragraph {
+    height: 105px;
+    width: 327px;
+    left: 0px;
+    top: 64px;
+    border-radius: nullpx;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 24px;
+    margin-top: 32px;
+    margin-bottom: 0;
+}
+
+.footer-icons {
+
+    width: 100px;
+    height: 20px;
+    margin-left: 24px;
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+  
+}
+
+.footer-paragraph {
+
+    width: 327px;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    white-space:break-spaces;
+    height: 105px;
+
+}
+
+.footer-icons {
+    margin-bottom: 80px;
+}
+
+@media only screen and (min-width:768px) {
+
+    body {
+       
+       /* background: url(./assets/bg-pattern-1.svg) 70vw -3vw no-repeat,
+       url(./assets/bg-main-tablet.png) -55.2vw -30.79vw no-repeat ; */
+       background: url(./assets/bg-main-tablet.png) -55.2vw -30.79vw no-repeat;
+
+       
+      }
+      .equalizer {
+        
+        margin-bottom: 94px;
+        margin-top: 62px;
+        margin-left: 39px;
+        margin-right: 352px;
+      }
+
+      header {
+        background: url(./assets/bg-pattern-1.svg) 70vw -3vw no-repeat;
+        background-size: 33%;
+        margin-bottom: 0;
+      }
+
+      main {
+        margin-top: 249px;
+      }
+
+      .main-header {
+          width: 70%;
+          font-size: 64px;
+          font-weight: 700;
+          line-height: 64px;
+          letter-spacing: -0.7272727489471436px;
+          text-align: left;
+          font-family: IBM Plex Sans;
+          margin-left: 39px;
+         
+        
+      }
+
+    .main-paragraph {
+        width: 514px;
+        left: 39px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: left;
+        font-family: IBM Plex Sans;
+
+        margin-left: 39px;
+        
+    }
+
+    .mobile-img {
+        height: 556px;
+        width: 270.2055969238281px;
+        margin-top: -135px;
+        margin-left: 64px;
+       
+    }
+
+   .colored-box {
+
+       width: 696px;
+       height: 600px;
+       left: 33px;
+       justify-self: center;
+      
+    }
+
+    .colored-box img{
+        height: 420px;
+        width: 280px;
+        margin-left: 230px;
+        margin-top: -30px;
+        
+       
+     }
+
+
+
+    .orange-box {
+
+        width: 399px;
+        height: 546px;
+        margin-left: 237px;
+        margin-right: 58px;
+       
+        z-index: 1;
+        margin-top: 150px;
+    }
+
+   footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   }
+
+    .footer-paragraph {
+        grid-column: 1  ;
+        margin-left: 34px;
+        width: 366px;
+        left: 0px;
+        top: 64px;
+        border-radius: nullpx;
+        height: 79px;
+        margin-bottom: 85px;
+
+    }
+
+    .footer-img {
+        
+        margin-left: 34px;
+        margin-top: 86px;
+    }
+
+    .footer-icons {
+        margin-bottom: 0;
+        margin-right: 39px;
+        margin-left: 230px;
+
+    }
+   
+    
+    
+}
+
+@media only screen and (min-width: 1440px) {
+
+    body {
+
+        background: url(./assets/bg-main-desktop.png) -20vw -20vw no-repeat;
+        
+    }
+
+    .equalizer {
+        margin: 0;
+        margin-top: 62px;
+        margin-bottom: 127px;
+        margin-left: 164.5px;
+    }
+
+    .main-header {
+         margin: 0;
+         margin-bottom: 40px;
+         font-family: IBM Plex Sans;
+         font-size: 88px;
+         font-weight: 700;
+         line-height: 88px;
+         letter-spacing: -1px;
+         text-align: left;
+         margin-left: 164.5px;
+    }
+
+    main { 
+        display: grid;
+        
+        margin-top: 321px;
+    }
+
+    .main-paragraph {
+        margin-left: 0;
+        margin-left: 164.5px;
+        
+    }
+
+    header {
+        background-image: none;
+        background: url(assets/bg-pattern-1.svg) 78.3vw -2.5vw no-repeat;
+
+    }
+
+    
+    .colored-box {
+        width: 1110px;
+        height: 600px;
+        
+        
+       
+    }
+
+    .colored-box img {
+        height: 460px;
+        width: 312px;
+        margin-left: 305px;
+        margin-top: -50px;
+
+    } 
+
+    .orange-box {
+
+        width: 446px;
+        left: 734px;
+        top: 950px;
+        border-radius: 12px;
+        height: 625px;
+        margin-left: 569px;
+        margin-top: 90px;
+
+    }
+
+    .orange-box-header {
+
+        width: 333px;
+        left: 788px;
+        top: 1008px;
+        border-radius: nullpx;
+        height: 52px;
+        margin-top: 58px;
+
+    }
+
+    .orange-box-paragraph {
+
+        width: 333px;
+        left: 788px;
+        top: 1082px;
+        border-radius: nullpx;
+        font-family: IBM Plex Sans;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 34px;
+        letter-spacing: 0px;
+        text-align: left;
+        height: 170px;
+        margin-bottom: 39px;
+
+
+    }
+
+ .buttons {
+    margin-top: 50px ;
+    margin-bottom: 48px ;
+ }
+
+ .mobile-img {
+
+    height: 606px;
+width: 280px;
+left: 283px;
+top: 666px;
+border-radius: 0px;
+margin-left: 102px;
+margin-top: -190px;
+
+ }
+
+ footer {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+
+ }
+
+ .footer-img {
+   margin: 0;
+   margin-top: 87px;
+   margin-left: 166px;
+
+ }
+
+ .footer-paragraph {
+    margin: 0;
+    margin-top: 87px;
+    margin-left: 166px;
+    margin-bottom: 91px;
+ }
+
+ .footer-icons {
+    margin: 0;
+    margin-top: 116px;
+    margin-left: 359px;
+ }
+}
